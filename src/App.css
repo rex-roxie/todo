@@ -43,6 +43,7 @@ ul {
   width: 31%;
   height: 45%;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 ul::-webkit-scrollbar {
