@@ -17,16 +17,18 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo</h1>
-      <form>
-        <input value={text} onChange={changeText}/>
-        <button type="submit" onClick={addTodo}>Add Todo</button>
-      </form>
-      <ul>
-        {todos.map(todo => (
-          <li>{todo}</li>
-        ))}
-      </ul>
+      <div className='container'>
+        <h1>Todo</h1>
+        <form>
+          <input value={text} onChange={changeText} placeholder='Add Todo'/>
+          <button type="submit" onClick={addTodo}>Add Todo</button>
+        </form>
+        <ul>
+          {todos.map(todo => (
+            <li>{todo}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
