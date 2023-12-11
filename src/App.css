@@ -59,4 +59,12 @@ li {
   overflow: -moz-hidden-unscrollable;
   text-align: left;
   margin-bottom: 3%;
+  opacity: 0;
+  animation: appear 0.75s ease forwards;
+}
+
+@keyframes appear {
+  to{
+    opacity: 100;
+  }
 }
