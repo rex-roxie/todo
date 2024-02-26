@@ -54,7 +54,7 @@ li {
   list-style: none;
   width: 100%;
   background-color: rgb(220, 183, 255);
-  border-radius: 2%;
+  border-radius: 0.5%;
   padding: 2%;
   overflow: -moz-hidden-unscrollable;
   text-align: left;
